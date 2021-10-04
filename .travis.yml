@@ -14,7 +14,7 @@ after_success:
   - docker push scp0000/docker-frontend
   - docker push scp0000/docker-backend
   - docker push scp0000/docker-nginx
-deply:
+deploy:
   provider: elasticbeanstalk
   region: "ap-northeast-2"
   app: "docker-fullstack-app"
